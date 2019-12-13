@@ -25,7 +25,7 @@ var goodsGroups = []goodsGroup{}
 func main() {
 
 	//fmt.Println("Начинаем формировать Прайс-лист")
-	connStr := "user=postgres password=leto2015 dbname=postgres sslmode=disable"
+	connStr := "user=postgres password=2015 dbname=postgres sslmode=disable"
 	db, err := sqlx.Connect("postgres", connStr)
 	if err != nil {
 		panic(err)
